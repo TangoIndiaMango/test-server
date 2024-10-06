@@ -1,9 +1,9 @@
-import NxWelcome from './nx-welcome';
+import BookRecommendationApp from './book-recommendation';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="react-app" />
+     <BookRecommendationApp />
     </div>
   );
 }
