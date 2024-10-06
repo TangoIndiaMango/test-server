@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@book-recommendation-app/index": ["utils/index.ts/src/index.ts"],
+      "@book-recommendation/angular-app/*": ["apps/angular-app/src/app/*"],
+      "@book-recommendation/react-app/*": ["apps/react-app/src/app/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
