@@ -1,9 +1,13 @@
 // book-recommendation.component.ts
 import { Component, OnInit } from '@angular/core';
 import { RecommendationService } from './recommendation.service';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
+  standalone: true,
   selector: 'app-book-recommendation',
+  imports: [FormsModule, CommonModule],
   template: `
     <div class="container mx-auto p-4">
       <h1 class="text-2xl font-bold mb-4">AI Book Recommendations</h1>
