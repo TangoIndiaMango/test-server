@@ -158,7 +158,7 @@ const BookRecommendationApp: React.FC = () => {
       <h1 className="text-3xl font-bold mb-6">AI Book Recommendations</h1>
       <div className="mb-4">
         <label htmlFor="genres" className="block mb-2 font-semibold">
-          Select your favorite genres:
+          Select your favorite genres...:
         </label>
         <select
           id="genres"
